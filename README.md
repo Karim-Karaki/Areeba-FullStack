@@ -1,3 +1,13 @@
+# Containerization
+
+An attempt to containerize the project was made using Docker, but both repos had to be merged in a third repo in order to containerize both of them. In the root directory where the backend and frontend and nginx are, run the following:
+
+```bash
+docker-compose up --build 
+
+The following is and explaination of how both the frontend and backend function with a guide to run both of them seperatly.
+
+
 # Backend API Documentation
 
 The backend code consists of an Express server connected to a MongoDB database with Mongoose as an ORM. It exposes various RESTful API endpoints for interacting with items and categories.
@@ -59,9 +69,4 @@ The frontend code is built using React and interacts with the backend via the pr
 - The user can view all items and their details on the main page.
 - Each item can be updated or deleted by clicking the respective buttons.
 
-# Containerization
 
-An attempt to containerize the project was made using Docker, but both repos had to be merged in a third repo in order to containerize both of them. In the root directory where the backend and frontend and nginx are, run the following:
-
-```bash
-docker-compose up --build
