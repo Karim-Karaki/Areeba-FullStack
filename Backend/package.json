@@ -1,6 +1,9 @@
 {
+  "name": "areeba-backend",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon item.js",
+    "start": "node items.js",
     "dev": "nodemon index.js",
     "test": "mocha test.js"
   },
